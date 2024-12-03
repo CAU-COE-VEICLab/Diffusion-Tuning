@@ -1,5 +1,5 @@
 # --------------------------------------------------------
-# VisionCNUnit
+# Diffusion Tuning
 # Copyright (c) 2024 CAU
 # Licensed under The MIT License [see LICENSE for details]
 # Written by Guorun Li

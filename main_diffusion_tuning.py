@@ -1,8 +1,8 @@
 # --------------------------------------------------------
-# Swin Transformer
-# Copyright (c) 2021 Microsoft
+# Diffusion Tuning
+# Copyright (c) 2024 CAU
 # Licensed under The MIT License [see LICENSE for details]
-# Written by Ze Liu
+# Written by Guorun Li
 # --------------------------------------------------------
 
 import os
@@ -157,6 +157,9 @@ def main(config):
     total_time_str = str(datetime.timedelta(seconds=int(total_time)))
     logger.info('Training time {}'.format(total_time_str))
 
+    del model, model_without_ddp, optimizer, data_loader_train, data_loader_val
+    torch.cuda.empty_cache()
+
 
 def train_one_epoch(config, model, criterion, data_loader, optimizer, epoch, mixup_fn, lr_scheduler, loss_scaler):
     model.train()
@@ -306,13 +309,15 @@ def diffusion_tuning_func(config):
         return None
 
     logger.info(f"diffusion tuning is start. the diffusion tuning mode is {config.TRAIN.FINETUNE_MODE}......")
+
+    origin_output = config.OUTPUT
     for mode in diffusion_tuning_mode_list:
         config.defrost()
         config.TRAIN.FINETUNE_MODE = mode 
         config.freeze()
         main(config)
         config.defrost()
-        dt_path = os.path.join(config.OUTPUT, f'ckpt_epoch_best.pth')
+        dt_path = os.path.join(origin_output, f'ckpt_epoch_best.pth')
         logger.info(f"reload diffusion tuning models from {dt_path}......")
         config.MODEL.PRETRAINED =  dt_path
         config.freeze()

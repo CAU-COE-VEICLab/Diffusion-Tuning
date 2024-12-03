@@ -1,10 +1,9 @@
-# Copyright (c) Meta Platforms, Inc. and affiliates.
-
-# All rights reserved.
-
-# This source code is licensed under the license found in the
-# LICENSE file in the root directory of this source tree.
-
+# --------------------------------------------------------
+# Diffusion Tuning
+# Copyright (c) 2024 CAU
+# Licensed under The MIT License [see LICENSE for details]
+# Written by Guorun Li
+# --------------------------------------------------------
 
 import torch
 import torch.nn as nn
