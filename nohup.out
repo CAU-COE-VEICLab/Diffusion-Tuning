@@ -1,0 +1,937 @@
+/home/vipuser/miniconda3/lib/python3.8/site-packages/torch/distributed/launch.py:178: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use_env is set by default in torchrun.
+If your script expects `--local_rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  warnings.warn(
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+To use FusedLAMB or FusedAdam, please install apex.
+=> merge config from /mnt/data/vcnu_expansibility/configs/vcnus_ab_v2/vcnus_ab_4.yaml
+RANK and WORLD_SIZE in environ: 1/8
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+To use FusedLAMB or FusedAdam, please install apex.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+=> merge config from /mnt/data/vcnu_expansibility/configs/vcnus_ab_v2/vcnus_ab_4.yaml
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+RANK and WORLD_SIZE in environ: 2/8
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+To use FusedLAMB or FusedAdam, please install apex.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+=> merge config from /mnt/data/vcnu_expansibility/configs/vcnus_ab_v2/vcnus_ab_4.yaml
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+RANK and WORLD_SIZE in environ: 6/8
+To use FusedLAMB or FusedAdam, please install apex.
+=> merge config from /mnt/data/vcnu_expansibility/configs/vcnus_ab_v2/vcnus_ab_4.yaml
+RANK and WORLD_SIZE in environ: 0/8
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+To use FusedLAMB or FusedAdam, please install apex.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+To use FusedLAMB or FusedAdam, please install apex.
+To use FusedLAMB or FusedAdam, please install apex.
+=> merge config from /mnt/data/vcnu_expansibility/configs/vcnus_ab_v2/vcnus_ab_4.yaml
+=> merge config from /mnt/data/vcnu_expansibility/configs/vcnus_ab_v2/vcnus_ab_4.yaml
+=> merge config from /mnt/data/vcnu_expansibility/configs/vcnus_ab_v2/vcnus_ab_4.yaml
+RANK and WORLD_SIZE in environ: 5/8
+RANK and WORLD_SIZE in environ: 4/8
+RANK and WORLD_SIZE in environ: 7/8
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+[Warning] Fused window process have not been installed. Please refer to get_started.md for installation.
+To use FusedLAMB or FusedAdam, please install apex.
+=> merge config from /mnt/data/vcnu_expansibility/configs/vcnus_ab_v2/vcnus_ab_4.yaml
+RANK and WORLD_SIZE in environ: 3/8
+[32m[2024-06-03 10:40:24 VCNUs_ab_tiny_224_ab1_perception3579][0m[33m(main.py 366)[0m: INFO Full config saved to pretrain/vcnu_ab/VCNUs_ab_tiny_224_ab1_perception3579/vcnu_tiny_ab1_4/config.json
+[32m[2024-06-03 10:40:24 VCNUs_ab_tiny_224_ab1_perception3579][0m[33m(main.py 369)[0m: INFO AMP_ENABLE: true
+AMP_OPT_LEVEL: ''
+AUG:
+  AUTO_AUGMENT: rand-m9-mstd0.5-inc1
+  COLOR_JITTER: 0.4
+  CUTMIX: 1.0
+  CUTMIX_MINMAX: null
+  MIXUP: 0.8
+  MIXUP_MODE: batch
+  MIXUP_PROB: 1.0
+  MIXUP_SWITCH_PROB: 0.5
+  RECOUNT: 1
+  REMODE: pixel
+  REPROB: 0.25
+BASE:
+- ''
+DATA:
+  BATCH_SIZE: 128
+  CACHE_MODE: part
+  DATASET: imagenet
+  DATA_PATH: /mnt/data/ImageNet1k/
+  IMG_SIZE: 224
+  INTERPOLATION: bicubic
+  MASK_PATCH_SIZE: 32
+  MASK_RATIO: 0.6
+  NUM_WORKERS: 32
+  PIN_MEMORY: true
+  ZIP_MODE: false
+ENABLE_AMP: false
+EVAL_MODE: false
+FUSED_LAYERNORM: false
+FUSED_WINDOW_PROCESS: false
+LOCAL_RANK: 0
+MODEL:
+  DROP_PATH_RATE: 0.1
+  DROP_RATE: 0.0
+  LABEL_SMOOTHING: 0.1
+  NAME: VCNUs_ab_tiny_224_ab1_perception3579
+  NUM_CLASSES: 1000
+  PRETRAINED: ''
+  RESUME: ''
+  SWIN:
+    APE: false
+    DEPTHS:
+    - 2
+    - 2
+    - 6
+    - 2
+    EMBED_DIM: 96
+    IN_CHANS: 3
+    MLP_RATIO: 4.0
+    NUM_HEADS:
+    - 3
+    - 6
+    - 12
+    - 24
+    PATCH_NORM: true
+    PATCH_SIZE: 4
+    QKV_BIAS: true
+    QK_SCALE: null
+    WINDOW_SIZE: 7
+  TYPE: VCNUs_ab
+  VCNU_CONVNEXT:
+    DEPTHS:
+    - 3
+    - 3
+    - 9
+    - 3
+    DIMS:
+    - 96
+    - 192
+    - 384
+    - 768
+    FILTER_STRATEGY1: 18
+    FILTER_STRATEGY2: 6
+    IN_CHANS: 3
+    LAYER_SCALE_INIT_VALUE: 1.0e-06
+    NUM_SCALE: 4
+    OUT_DIM: null
+    PATCH_SIZE: 4
+    PRETRAIN_IMAGE_SIZE: 224
+    QKV_BIAS: true
+  VCNU_SMT:
+    CA_ATTENTIONS:
+    - 1
+    - 1
+    - 1
+    - 0
+    CA_NUM_HEADS:
+    - 4
+    - 4
+    - 4
+    - -1
+    DEPTHS:
+    - 2
+    - 2
+    - 8
+    - 1
+    EMBED_DIMS:
+    - 64
+    - 128
+    - 256
+    - 512
+    EXPAND_RATIO: 2
+    FILTER_STRATEGY1: 18
+    FILTER_STRATEGY2: 6
+    HEAD_CONV: 3
+    IN_CHANS: 3
+    MLP_RATIOS:
+    - 8
+    - 6
+    - 4
+    - 2
+    NUM_SCALE: 4
+    NUM_STAGES: 4
+    OUT_DIM: null
+    PATCH_SIZE: 4
+    PRETRAIN_IMAGE_SIZE: 224
+    QKV_BIAS: true
+    QK_SCALE: null
+    SA_NUM_HEADS:
+    - -1
+    - -1
+    - 8
+    - 16
+    USE_LAYERSCALE: false
+  VCNU_SWIN:
+    APE: false
+    DEPTHS:
+    - 2
+    - 2
+    - 6
+    - 2
+    EMBED_DIM: 84
+    FILTER_STRATEGY1: 18
+    FILTER_STRATEGY2: 6
+    IN_CHANS: 3
+    MLP_RATIO: 4.0
+    NUM_HEADS:
+    - 3
+    - 6
+    - 12
+    - 24
+    NUM_SCALE: 4
+    OUT_DIM: null
+    PATCH_NORM: true
+    PATCH_SIZE: 4
+    PRETRAIN_IMAGE_SIZE: 224
+    QKV_BIAS: true
+    QK_SCALE: null
+    WINDOW_SIZE: 7
+  generalVCNUS:
+    ABLATION_STRATEGY: UMA
+    AB_AGGREGATION_ATTN: add
+    AB_AGGREGATION_LTM: add
+    AB_DOWNSAMPLING_STRATEGY: avg
+    AB_NORM_ATTN: false
+    AB_NORM_ATTN_NAME: BN
+    AB_NORM_LTM: false
+    AB_NORM_LTM_NAME: BN
+    AB_PATCH_NORM_NAME: BN
+    AB_WM: l
+    APE: false
+    DEPTHS:
+    - 3
+    - 3
+    - 9
+    - 3
+    EMBED_CONV: 7
+    EMBED_DIM: 96
+    FILTER_STRATEGY1: 18
+    FILTER_STRATEGY2: 6
+    IN_CHANS: 3
+    KERNAL_SIZE: 11
+    MLP_RATIO: 4.0
+    NUM_SCALE: 4
+    PATCH_NORM: true
+    PATCH_SIZE: 4
+    PRETRAIN_IMAGE_SIZE: 224
+    RECE_FIELD: 7
+    SAVE_FREQ: 30
+    USE_BIAS: true
+    USE_FIBONACCI: true
+    USE_LAYERSCALE: false
+    USE_SEQUENCEFUNC: statistic
+OUTPUT: pretrain/vcnu_ab/VCNUs_ab_tiny_224_ab1_perception3579/vcnu_tiny_ab1_4
+PRINT_FREQ: 100
+SAVE_FREQ: 50
+SEED: 0
+TAG: vcnu_tiny_ab1_4
+TEST:
+  CROP: true
+  SEQUENTIAL: false
+  SHUFFLE: false
+THROUGHPUT_MODE: false
+TRAIN:
+  ACCUMULATION_STEPS: 1
+  AUTO_RESUME: true
+  BASE_LR: 0.004
+  CLIP_GRAD: 5.0
+  EPOCHS: 300
+  LAYER_DECAY: 1.0
+  LR_SCHEDULER:
+    DECAY_EPOCHS: 30
+    DECAY_RATE: 0.1
+    GAMMA: 0.1
+    MULTISTEPS: []
+    NAME: cosine
+    WARMUP_PREFIX: true
+  MIN_LR: 2.0e-06
+  MOE:
+    SAVE_MASTER: false
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  USE_CHECKPOINT: false
+  WARMUP_EPOCHS: 20
+  WARMUP_LR: 4.0e-07
+  WEIGHT_DECAY: 0.05
+
+[32m[2024-06-03 10:40:24 VCNUs_ab_tiny_224_ab1_perception3579][0m[33m(main.py 370)[0m: INFO {"cfg": "/mnt/data/vcnu_expansibility/configs/vcnus_ab_v2/vcnus_ab_4.yaml", "opts": null, "batch_size": 128, "data_path": "/mnt/data/ImageNet1k/", "zip": false, "cache_mode": "part", "pretrained": null, "resume": null, "accumulation_steps": null, "use_checkpoint": false, "disable_amp": false, "amp_opt_level": null, "output": "pretrain/vcnu_ab", "tag": "vcnu_tiny_ab1_4", "eval": false, "throughput": false, "local_rank": 0, "fused_window_process": false, "fused_layernorm": false, "optim": null}
+local rank 1 / global rank 1 successfully build train dataset
+local rank 3 / global rank 3 successfully build train dataset
+local rank 4 / global rank 4 successfully build train dataset
+local rank 7 / global rank 7 successfully build train dataset
+local rank 5 / global rank 5 successfully build train dataset
+local rank 6 / global rank 6 successfully build train dataset
+local rank 2 / global rank 2 successfully build train dataset
+local rank 0 / global rank 0 successfully build train dataset
+local rank 1 / global rank 1 successfully build val dataset
+local rank 3 / global rank 3 successfully build val dataset
+local rank 4 / global rank 4 successfully build val dataset
+local rank 7 / global rank 7 successfully build val dataset
+local rank 5 / global rank 5 successfully build val dataset
+local rank 6 / global rank 6 successfully build val dataset
+local rank 2 / global rank 2 successfully build val dataset
+local rank 0 / global rank 0 successfully build val dataset
+[32m[2024-06-03 10:40:28 VCNUs_ab_tiny_224_ab1_perception3579][0m[33m(main.py 108)[0m: INFO Creating model:VCNUs_ab/VCNUs_ab_tiny_224_ab1_perception3579
+[32m[2024-06-03 10:40:28 VCNUs_ab_tiny_224_ab1_perception3579][0m[33m(main.py 110)[0m: INFO VCNUs_ab(
+  (patch_embed): PatchEmbed(
+    (conv): Sequential(
+      (0): Conv2d(3, 96, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
+      (1): BatchNorm2d(96, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+      (3): Conv2d(96, 96, kernel_size=(2, 2), stride=(2, 2))
+    )
+    (norm): BatchNorm2d(96, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (pos_drop): Identity()
+  (layers): ModuleList(
+    (0): BasicLayer(
+      dim=96, memory_dim=14, depth=3
+      (blocks): ModuleList(
+        (0): VCNUsBlock(
+          dim=96, memory_dim=14, mlp_ratio=4.0, norm_name=BN
+          (drop_path): Identity()
+          (norm1): BatchNorm2d(96, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (vcnu): VisionCognitiveNeuralUnit(
+            ab_aggregation_attn=add, ab_aggregation_ltm=add,ab_norm_attn_=False, ab_norm_ltm_=False,ab_norm_attn_name=BN, ab_norm_ltm_name=BN,
+            (activation): GELU()
+            (linear_map): Conv2d(96, 96, kernel_size=(1, 1), stride=(1, 1))
+            (multiscale_conv_1): Conv2d(24, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=24)
+            (multiscale_conv_2): Conv2d(24, 24, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2), groups=24)
+            (multiscale_conv_3): Conv2d(24, 24, kernel_size=(7, 7), stride=(1, 1), padding=(3, 3), groups=24)
+            (multiscale_conv_4): Conv2d(24, 24, kernel_size=(9, 9), stride=(1, 1), padding=(4, 4), groups=24)
+            (wm): Conv2d(14, 96, kernel_size=(1, 1), stride=(1, 1))
+            (attn): Identity()
+            (update_ltm): Conv2d(96, 14, kernel_size=(1, 1), stride=(1, 1))
+            (aggregation_update_ltm): Identity()
+            (norm_attn): Identity()
+            (norm_ltm): Identity()
+            (proj_drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (1): VCNUsBlock(
+          dim=96, memory_dim=14, mlp_ratio=4.0, norm_name=BN
+          (drop_path): DropPath(Droprate=0.0058823530562222)
+          (norm1): BatchNorm2d(96, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (vcnu): VisionCognitiveNeuralUnit(
+            ab_aggregation_attn=add, ab_aggregation_ltm=add,ab_norm_attn_=False, ab_norm_ltm_=False,ab_norm_attn_name=BN, ab_norm_ltm_name=BN,
+            (activation): GELU()
+            (linear_map): Conv2d(96, 96, kernel_size=(1, 1), stride=(1, 1))
+            (multiscale_conv_1): Conv2d(24, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=24)
+            (multiscale_conv_2): Conv2d(24, 24, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2), groups=24)
+            (multiscale_conv_3): Conv2d(24, 24, kernel_size=(7, 7), stride=(1, 1), padding=(3, 3), groups=24)
+            (multiscale_conv_4): Conv2d(24, 24, kernel_size=(9, 9), stride=(1, 1), padding=(4, 4), groups=24)
+            (wm): Conv2d(14, 96, kernel_size=(1, 1), stride=(1, 1))
+            (attn): Identity()
+            (update_ltm): Conv2d(96, 14, kernel_size=(1, 1), stride=(1, 1))
+            (aggregation_update_ltm): Identity()
+            (norm_attn): Identity()
+            (norm_ltm): Identity()
+            (proj_drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (2): VCNUsBlock(
+          dim=96, memory_dim=14, mlp_ratio=4.0, norm_name=BN
+          (drop_path): DropPath(Droprate=0.0117647061124444)
+          (norm1): BatchNorm2d(96, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (vcnu): VisionCognitiveNeuralUnit(
+            ab_aggregation_attn=add, ab_aggregation_ltm=add,ab_norm_attn_=False, ab_norm_ltm_=False,ab_norm_attn_name=BN, ab_norm_ltm_name=BN,
+            (activation): GELU()
+            (linear_map): Conv2d(96, 96, kernel_size=(1, 1), stride=(1, 1))
+            (multiscale_conv_1): Conv2d(24, 24, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=24)
+            (multiscale_conv_2): Conv2d(24, 24, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2), groups=24)
+            (multiscale_conv_3): Conv2d(24, 24, kernel_size=(7, 7), stride=(1, 1), padding=(3, 3), groups=24)
+            (multiscale_conv_4): Conv2d(24, 24, kernel_size=(9, 9), stride=(1, 1), padding=(4, 4), groups=24)
+            (wm): Conv2d(14, 96, kernel_size=(1, 1), stride=(1, 1))
+            (attn): Identity()
+            (update_ltm): Conv2d(96, 14, kernel_size=(1, 1), stride=(1, 1))
+            (aggregation_update_ltm): Identity()
+            (norm_attn): Identity()
+            (norm_ltm): Identity()
+            (proj_drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+      )
+      (downsample): OverlapPatchEmbed(
+        memory origin dim=14memory input dim=14
+        (proj): Conv2d(96, 192, kernel_size=(2, 2), stride=(2, 2), bias=False)
+        (norm): BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (down_sampling): AvgPool2d(kernel_size=2, stride=2, padding=0)
+        (memory_norm): Identity()
+      )
+    )
+    (1): BasicLayer(
+      dim=192, memory_dim=14, depth=3
+      (blocks): ModuleList(
+        (0): VCNUsBlock(
+          dim=192, memory_dim=14, mlp_ratio=4.0, norm_name=BN
+          (drop_path): DropPath(Droprate=0.01764705963432789)
+          (norm1): BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (vcnu): VisionCognitiveNeuralUnit(
+            ab_aggregation_attn=add, ab_aggregation_ltm=add,ab_norm_attn_=False, ab_norm_ltm_=False,ab_norm_attn_name=BN, ab_norm_ltm_name=BN,
+            (activation): GELU()
+            (linear_map): Conv2d(192, 192, kernel_size=(1, 1), stride=(1, 1))
+            (multiscale_conv_1): Conv2d(48, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=48)
+            (multiscale_conv_2): Conv2d(48, 48, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2), groups=48)
+            (multiscale_conv_3): Conv2d(48, 48, kernel_size=(7, 7), stride=(1, 1), padding=(3, 3), groups=48)
+            (multiscale_conv_4): Conv2d(48, 48, kernel_size=(9, 9), stride=(1, 1), padding=(4, 4), groups=48)
+            (wm): Conv2d(14, 192, kernel_size=(1, 1), stride=(1, 1))
+            (attn): Identity()
+            (update_ltm): Conv2d(192, 14, kernel_size=(1, 1), stride=(1, 1))
+            (aggregation_update_ltm): Identity()
+            (norm_attn): Identity()
+            (norm_ltm): Identity()
+            (proj_drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (1): VCNUsBlock(
+          dim=192, memory_dim=14, mlp_ratio=4.0, norm_name=BN
+          (drop_path): DropPath(Droprate=0.0235294122248888)
+          (norm1): BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (vcnu): VisionCognitiveNeuralUnit(
+            ab_aggregation_attn=add, ab_aggregation_ltm=add,ab_norm_attn_=False, ab_norm_ltm_=False,ab_norm_attn_name=BN, ab_norm_ltm_name=BN,
+            (activation): GELU()
+            (linear_map): Conv2d(192, 192, kernel_size=(1, 1), stride=(1, 1))
+            (multiscale_conv_1): Conv2d(48, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=48)
+            (multiscale_conv_2): Conv2d(48, 48, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2), groups=48)
+            (multiscale_conv_3): Conv2d(48, 48, kernel_size=(7, 7), stride=(1, 1), padding=(3, 3), groups=48)
+            (multiscale_conv_4): Conv2d(48, 48, kernel_size=(9, 9), stride=(1, 1), padding=(4, 4), groups=48)
+            (wm): Conv2d(14, 192, kernel_size=(1, 1), stride=(1, 1))
+            (attn): Identity()
+            (update_ltm): Conv2d(192, 14, kernel_size=(1, 1), stride=(1, 1))
+            (aggregation_update_ltm): Identity()
+            (norm_attn): Identity()
+            (norm_ltm): Identity()
+            (proj_drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (2): VCNUsBlock(
+          dim=192, memory_dim=14, mlp_ratio=4.0, norm_name=BN
+          (drop_path): DropPath(Droprate=0.029411764815449715)
+          (norm1): BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (vcnu): VisionCognitiveNeuralUnit(
+            ab_aggregation_attn=add, ab_aggregation_ltm=add,ab_norm_attn_=False, ab_norm_ltm_=False,ab_norm_attn_name=BN, ab_norm_ltm_name=BN,
+            (activation): GELU()
+            (linear_map): Conv2d(192, 192, kernel_size=(1, 1), stride=(1, 1))
+            (multiscale_conv_1): Conv2d(48, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=48)
+            (multiscale_conv_2): Conv2d(48, 48, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2), groups=48)
+            (multiscale_conv_3): Conv2d(48, 48, kernel_size=(7, 7), stride=(1, 1), padding=(3, 3), groups=48)
+            (multiscale_conv_4): Conv2d(48, 48, kernel_size=(9, 9), stride=(1, 1), padding=(4, 4), groups=48)
+            (wm): Conv2d(14, 192, kernel_size=(1, 1), stride=(1, 1))
+            (attn): Identity()
+            (update_ltm): Conv2d(192, 14, kernel_size=(1, 1), stride=(1, 1))
+            (aggregation_update_ltm): Identity()
+            (norm_attn): Identity()
+            (norm_ltm): Identity()
+            (proj_drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+      )
+      (downsample): OverlapPatchEmbed(
+        memory origin dim=14memory input dim=14
+        (proj): Conv2d(192, 384, kernel_size=(2, 2), stride=(2, 2), bias=False)
+        (norm): BatchNorm2d(384, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (down_sampling): AvgPool2d(kernel_size=2, stride=2, padding=0)
+        (memory_norm): Identity()
+      )
+    )
+    (2): BasicLayer(
+      dim=384, memory_dim=14, depth=9
+      (blocks): ModuleList(
+        (0): VCNUsBlock(
+          dim=384, memory_dim=14, mlp_ratio=4.0, norm_name=BN
+          (drop_path): DropPath(Droprate=0.03529411926865578)
+          (norm1): BatchNorm2d(384, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (vcnu): VisionCognitiveNeuralUnit(
+            ab_aggregation_attn=add, ab_aggregation_ltm=add,ab_norm_attn_=False, ab_norm_ltm_=False,ab_norm_attn_name=BN, ab_norm_ltm_name=BN,
+            (activation): GELU()
+            (linear_map): Conv2d(384, 384, kernel_size=(1, 1), stride=(1, 1))
+            (multiscale_conv_1): Conv2d(96, 96, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=96)
+            (multiscale_conv_2): Conv2d(96, 96, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2), groups=96)
+            (multiscale_conv_3): Conv2d(96, 96, kernel_size=(7, 7), stride=(1, 1), padding=(3, 3), groups=96)
+            (multiscale_conv_4): Conv2d(96, 96, kernel_size=(9, 9), stride=(1, 1), padding=(4, 4), groups=96)
+            (wm): Conv2d(14, 384, kernel_size=(1, 1), stride=(1, 1))
+            (attn): Identity()
+            (update_ltm): Conv2d(384, 14, kernel_size=(1, 1), stride=(1, 1))
+            (aggregation_update_ltm): Identity()
+            (norm_attn): Identity()
+            (norm_ltm): Identity()
+            (proj_drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (1): VCNUsBlock(
+          dim=384, memory_dim=14, mlp_ratio=4.0, norm_name=BN
+          (drop_path): DropPath(Droprate=0.04117647185921669)
+          (norm1): BatchNorm2d(384, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (vcnu): VisionCognitiveNeuralUnit(
+            ab_aggregation_attn=add, ab_aggregation_ltm=add,ab_norm_attn_=False, ab_norm_ltm_=False,ab_norm_attn_name=BN, ab_norm_ltm_name=BN,
+            (activation): GELU()
+            (linear_map): Conv2d(384, 384, kernel_size=(1, 1), stride=(1, 1))
+            (multiscale_conv_1): Conv2d(96, 96, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=96)
+            (multiscale_conv_2): Conv2d(96, 96, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2), groups=96)
+            (multiscale_conv_3): Conv2d(96, 96, kernel_size=(7, 7), stride=(1, 1), padding=(3, 3), groups=96)
+            (multiscale_conv_4): Conv2d(96, 96, kernel_size=(9, 9), stride=(1, 1), padding=(4, 4), groups=96)
+            (wm): Conv2d(14, 384, kernel_size=(1, 1), stride=(1, 1))
+            (attn): Identity()
+            (update_ltm): Conv2d(384, 14, kernel_size=(1, 1), stride=(1, 1))
+            (aggregation_update_ltm): Identity()
+            (norm_attn): Identity()
+            (norm_ltm): Identity()
+            (proj_drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (2): VCNUsBlock(
+          dim=384, memory_dim=14, mlp_ratio=4.0, norm_name=BN
+          (drop_path): DropPath(Droprate=0.0470588244497776)
+          (norm1): BatchNorm2d(384, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (vcnu): VisionCognitiveNeuralUnit(
+            ab_aggregation_attn=add, ab_aggregation_ltm=add,ab_norm_attn_=False, ab_norm_ltm_=False,ab_norm_attn_name=BN, ab_norm_ltm_name=BN,
+            (activation): GELU()
+            (linear_map): Conv2d(384, 384, kernel_size=(1, 1), stride=(1, 1))
+            (multiscale_conv_1): Conv2d(96, 96, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=96)
+            (multiscale_conv_2): Conv2d(96, 96, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2), groups=96)
+            (multiscale_conv_3): Conv2d(96, 96, kernel_size=(7, 7), stride=(1, 1), padding=(3, 3), groups=96)
+            (multiscale_conv_4): Conv2d(96, 96, kernel_size=(9, 9), stride=(1, 1), padding=(4, 4), groups=96)
+            (wm): Conv2d(14, 384, kernel_size=(1, 1), stride=(1, 1))
+            (attn): Identity()
+            (update_ltm): Conv2d(384, 14, kernel_size=(1, 1), stride=(1, 1))
+            (aggregation_update_ltm): Identity()
+            (norm_attn): Identity()
+            (norm_ltm): Identity()
+            (proj_drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (3): VCNUsBlock(
+          dim=384, memory_dim=14, mlp_ratio=4.0, norm_name=BN
+          (drop_path): DropPath(Droprate=0.052941177040338516)
+          (norm1): BatchNorm2d(384, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (vcnu): VisionCognitiveNeuralUnit(
+            ab_aggregation_attn=add, ab_aggregation_ltm=add,ab_norm_attn_=False, ab_norm_ltm_=False,ab_norm_attn_name=BN, ab_norm_ltm_name=BN,
+            (activation): GELU()
+            (linear_map): Conv2d(384, 384, kernel_size=(1, 1), stride=(1, 1))
+            (multiscale_conv_1): Conv2d(96, 96, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=96)
+            (multiscale_conv_2): Conv2d(96, 96, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2), groups=96)
+            (multiscale_conv_3): Conv2d(96, 96, kernel_size=(7, 7), stride=(1, 1), padding=(3, 3), groups=96)
+            (multiscale_conv_4): Conv2d(96, 96, kernel_size=(9, 9), stride=(1, 1), padding=(4, 4), groups=96)
+            (wm): Conv2d(14, 384, kernel_size=(1, 1), stride=(1, 1))
+            (attn): Identity()
+            (update_ltm): Conv2d(384, 14, kernel_size=(1, 1), stride=(1, 1))
+            (aggregation_update_ltm): Identity()
+            (norm_attn): Identity()
+            (norm_ltm): Identity()
+            (proj_drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (4): VCNUsBlock(
+          dim=384, memory_dim=14, mlp_ratio=4.0, norm_name=BN
+          (drop_path): DropPath(Droprate=0.05882352963089943)
+          (norm1): BatchNorm2d(384, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (vcnu): VisionCognitiveNeuralUnit(
+            ab_aggregation_attn=add, ab_aggregation_ltm=add,ab_norm_attn_=False, ab_norm_ltm_=False,ab_norm_attn_name=BN, ab_norm_ltm_name=BN,
+            (activation): GELU()
+            (linear_map): Conv2d(384, 384, kernel_size=(1, 1), stride=(1, 1))
+            (multiscale_conv_1): Conv2d(96, 96, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=96)
+            (multiscale_conv_2): Conv2d(96, 96, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2), groups=96)
+            (multiscale_conv_3): Conv2d(96, 96, kernel_size=(7, 7), stride=(1, 1), padding=(3, 3), groups=96)
+            (multiscale_conv_4): Conv2d(96, 96, kernel_size=(9, 9), stride=(1, 1), padding=(4, 4), groups=96)
+            (wm): Conv2d(14, 384, kernel_size=(1, 1), stride=(1, 1))
+            (attn): Identity()
+            (update_ltm): Conv2d(384, 14, kernel_size=(1, 1), stride=(1, 1))
+            (aggregation_update_ltm): Identity()
+            (norm_attn): Identity()
+            (norm_ltm): Identity()
+            (proj_drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (5): VCNUsBlock(
+          dim=384, memory_dim=14, mlp_ratio=4.0, norm_name=BN
+          (drop_path): DropPath(Droprate=0.06470588594675064)
+          (norm1): BatchNorm2d(384, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (vcnu): VisionCognitiveNeuralUnit(
+            ab_aggregation_attn=add, ab_aggregation_ltm=add,ab_norm_attn_=False, ab_norm_ltm_=False,ab_norm_attn_name=BN, ab_norm_ltm_name=BN,
+            (activation): GELU()
+            (linear_map): Conv2d(384, 384, kernel_size=(1, 1), stride=(1, 1))
+            (multiscale_conv_1): Conv2d(96, 96, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=96)
+            (multiscale_conv_2): Conv2d(96, 96, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2), groups=96)
+            (multiscale_conv_3): Conv2d(96, 96, kernel_size=(7, 7), stride=(1, 1), padding=(3, 3), groups=96)
+            (multiscale_conv_4): Conv2d(96, 96, kernel_size=(9, 9), stride=(1, 1), padding=(4, 4), groups=96)
+            (wm): Conv2d(14, 384, kernel_size=(1, 1), stride=(1, 1))
+            (attn): Identity()
+            (update_ltm): Conv2d(384, 14, kernel_size=(1, 1), stride=(1, 1))
+            (aggregation_update_ltm): Identity()
+            (norm_attn): Identity()
+            (norm_ltm): Identity()
+            (proj_drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (6): VCNUsBlock(
+          dim=384, memory_dim=14, mlp_ratio=4.0, norm_name=BN
+          (drop_path): DropPath(Droprate=0.07058823853731155)
+          (norm1): BatchNorm2d(384, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (vcnu): VisionCognitiveNeuralUnit(
+            ab_aggregation_attn=add, ab_aggregation_ltm=add,ab_norm_attn_=False, ab_norm_ltm_=False,ab_norm_attn_name=BN, ab_norm_ltm_name=BN,
+            (activation): GELU()
+            (linear_map): Conv2d(384, 384, kernel_size=(1, 1), stride=(1, 1))
+            (multiscale_conv_1): Conv2d(96, 96, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=96)
+            (multiscale_conv_2): Conv2d(96, 96, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2), groups=96)
+            (multiscale_conv_3): Conv2d(96, 96, kernel_size=(7, 7), stride=(1, 1), padding=(3, 3), groups=96)
+            (multiscale_conv_4): Conv2d(96, 96, kernel_size=(9, 9), stride=(1, 1), padding=(4, 4), groups=96)
+            (wm): Conv2d(14, 384, kernel_size=(1, 1), stride=(1, 1))
+            (attn): Identity()
+            (update_ltm): Conv2d(384, 14, kernel_size=(1, 1), stride=(1, 1))
+            (aggregation_update_ltm): Identity()
+            (norm_attn): Identity()
+            (norm_ltm): Identity()
+            (proj_drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (7): VCNUsBlock(
+          dim=384, memory_dim=14, mlp_ratio=4.0, norm_name=BN
+          (drop_path): DropPath(Droprate=0.07647059112787247)
+          (norm1): BatchNorm2d(384, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (vcnu): VisionCognitiveNeuralUnit(
+            ab_aggregation_attn=add, ab_aggregation_ltm=add,ab_norm_attn_=False, ab_norm_ltm_=False,ab_norm_attn_name=BN, ab_norm_ltm_name=BN,
+            (activation): GELU()
+            (linear_map): Conv2d(384, 384, kernel_size=(1, 1), stride=(1, 1))
+            (multiscale_conv_1): Conv2d(96, 96, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=96)
+            (multiscale_conv_2): Conv2d(96, 96, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2), groups=96)
+            (multiscale_conv_3): Conv2d(96, 96, kernel_size=(7, 7), stride=(1, 1), padding=(3, 3), groups=96)
+            (multiscale_conv_4): Conv2d(96, 96, kernel_size=(9, 9), stride=(1, 1), padding=(4, 4), groups=96)
+            (wm): Conv2d(14, 384, kernel_size=(1, 1), stride=(1, 1))
+            (attn): Identity()
+            (update_ltm): Conv2d(384, 14, kernel_size=(1, 1), stride=(1, 1))
+            (aggregation_update_ltm): Identity()
+            (norm_attn): Identity()
+            (norm_ltm): Identity()
+            (proj_drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (8): VCNUsBlock(
+          dim=384, memory_dim=14, mlp_ratio=4.0, norm_name=BN
+          (drop_path): DropPath(Droprate=0.08235294371843338)
+          (norm1): BatchNorm2d(384, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (vcnu): VisionCognitiveNeuralUnit(
+            ab_aggregation_attn=add, ab_aggregation_ltm=add,ab_norm_attn_=False, ab_norm_ltm_=False,ab_norm_attn_name=BN, ab_norm_ltm_name=BN,
+            (activation): GELU()
+            (linear_map): Conv2d(384, 384, kernel_size=(1, 1), stride=(1, 1))
+            (multiscale_conv_1): Conv2d(96, 96, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=96)
+            (multiscale_conv_2): Conv2d(96, 96, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2), groups=96)
+            (multiscale_conv_3): Conv2d(96, 96, kernel_size=(7, 7), stride=(1, 1), padding=(3, 3), groups=96)
+            (multiscale_conv_4): Conv2d(96, 96, kernel_size=(9, 9), stride=(1, 1), padding=(4, 4), groups=96)
+            (wm): Conv2d(14, 384, kernel_size=(1, 1), stride=(1, 1))
+            (attn): Identity()
+            (update_ltm): Conv2d(384, 14, kernel_size=(1, 1), stride=(1, 1))
+            (aggregation_update_ltm): Identity()
+            (norm_attn): Identity()
+            (norm_ltm): Identity()
+            (proj_drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+      )
+      (downsample): OverlapPatchEmbed(
+        memory origin dim=14memory input dim=14
+        (proj): Conv2d(384, 768, kernel_size=(2, 2), stride=(2, 2), bias=False)
+        (norm): BatchNorm2d(768, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (down_sampling): AvgPool2d(kernel_size=2, stride=2, padding=0)
+        (memory_norm): Identity()
+      )
+    )
+    (3): BasicLayer(
+      dim=768, memory_dim=14, depth=3
+      (blocks): ModuleList(
+        (0): VCNUsBlock(
+          dim=768, memory_dim=14, mlp_ratio=4.0, norm_name=BN
+          (drop_path): DropPath(Droprate=0.0882352963089943)
+          (norm1): BatchNorm2d(768, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (vcnu): VisionCognitiveNeuralUnit(
+            ab_aggregation_attn=add, ab_aggregation_ltm=add,ab_norm_attn_=False, ab_norm_ltm_=False,ab_norm_attn_name=BN, ab_norm_ltm_name=BN,
+            (activation): GELU()
+            (linear_map): Conv2d(768, 768, kernel_size=(1, 1), stride=(1, 1))
+            (multiscale_conv_1): Conv2d(192, 192, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=192)
+            (multiscale_conv_2): Conv2d(192, 192, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2), groups=192)
+            (multiscale_conv_3): Conv2d(192, 192, kernel_size=(7, 7), stride=(1, 1), padding=(3, 3), groups=192)
+            (multiscale_conv_4): Conv2d(192, 192, kernel_size=(9, 9), stride=(1, 1), padding=(4, 4), groups=192)
+            (wm): Conv2d(14, 768, kernel_size=(1, 1), stride=(1, 1))
+            (attn): Identity()
+            (update_ltm): Conv2d(768, 14, kernel_size=(1, 1), stride=(1, 1))
+            (aggregation_update_ltm): Identity()
+            (norm_attn): Identity()
+            (norm_ltm): Identity()
+            (proj_drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (1): VCNUsBlock(
+          dim=768, memory_dim=14, mlp_ratio=4.0, norm_name=BN
+          (drop_path): DropPath(Droprate=0.0941176488995552)
+          (norm1): BatchNorm2d(768, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (vcnu): VisionCognitiveNeuralUnit(
+            ab_aggregation_attn=add, ab_aggregation_ltm=add,ab_norm_attn_=False, ab_norm_ltm_=False,ab_norm_attn_name=BN, ab_norm_ltm_name=BN,
+            (activation): GELU()
+            (linear_map): Conv2d(768, 768, kernel_size=(1, 1), stride=(1, 1))
+            (multiscale_conv_1): Conv2d(192, 192, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=192)
+            (multiscale_conv_2): Conv2d(192, 192, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2), groups=192)
+            (multiscale_conv_3): Conv2d(192, 192, kernel_size=(7, 7), stride=(1, 1), padding=(3, 3), groups=192)
+            (multiscale_conv_4): Conv2d(192, 192, kernel_size=(9, 9), stride=(1, 1), padding=(4, 4), groups=192)
+            (wm): Conv2d(14, 768, kernel_size=(1, 1), stride=(1, 1))
+            (attn): Identity()
+            (update_ltm): Conv2d(768, 14, kernel_size=(1, 1), stride=(1, 1))
+            (aggregation_update_ltm): Identity()
+            (norm_attn): Identity()
+            (norm_ltm): Identity()
+            (proj_drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+        (2): VCNUsBlock(
+          dim=768, memory_dim=14, mlp_ratio=4.0, norm_name=BN
+          (drop_path): DropPath(Droprate=0.10000000149011612)
+          (norm1): BatchNorm2d(768, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (vcnu): VisionCognitiveNeuralUnit(
+            ab_aggregation_attn=add, ab_aggregation_ltm=add,ab_norm_attn_=False, ab_norm_ltm_=False,ab_norm_attn_name=BN, ab_norm_ltm_name=BN,
+            (activation): GELU()
+            (linear_map): Conv2d(768, 768, kernel_size=(1, 1), stride=(1, 1))
+            (multiscale_conv_1): Conv2d(192, 192, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=192)
+            (multiscale_conv_2): Conv2d(192, 192, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2), groups=192)
+            (multiscale_conv_3): Conv2d(192, 192, kernel_size=(7, 7), stride=(1, 1), padding=(3, 3), groups=192)
+            (multiscale_conv_4): Conv2d(192, 192, kernel_size=(9, 9), stride=(1, 1), padding=(4, 4), groups=192)
+            (wm): Conv2d(14, 768, kernel_size=(1, 1), stride=(1, 1))
+            (attn): Identity()
+            (update_ltm): Conv2d(768, 14, kernel_size=(1, 1), stride=(1, 1))
+            (aggregation_update_ltm): Identity()
+            (norm_attn): Identity()
+            (norm_ltm): Identity()
+            (proj_drop): Dropout(p=0.0, inplace=False)
+          )
+        )
+      )
+    )
+  )
+  (normhead): BatchNorm2d(768, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (avgpool): AdaptiveAvgPool1d(output_size=1)
+  (head): Linear(in_features=768, out_features=1000, bias=True)
+)
+[32m[2024-06-03 10:40:28 VCNUs_ab_tiny_224_ab1_perception3579][0m[33m(main.py 113)[0m: INFO number of params: 6098212
+All checkpoints founded in pretrain/vcnu_ab/VCNUs_ab_tiny_224_ab1_perception3579/vcnu_tiny_ab1_4: []
+All checkpoints founded in pretrain/vcnu_ab/VCNUs_ab_tiny_224_ab1_perception3579/vcnu_tiny_ab1_4: []All checkpoints founded in pretrain/vcnu_ab/VCNUs_ab_tiny_224_ab1_perception3579/vcnu_tiny_ab1_4: []
+
+All checkpoints founded in pretrain/vcnu_ab/VCNUs_ab_tiny_224_ab1_perception3579/vcnu_tiny_ab1_4: []
+[32m[2024-06-03 10:40:28 VCNUs_ab_tiny_224_ab1_perception3579][0m[33m(main.py 150)[0m: INFO no checkpoint found in pretrain/vcnu_ab/VCNUs_ab_tiny_224_ab1_perception3579/vcnu_tiny_ab1_4, ignoring auto resume
+[32m[2024-06-03 10:40:28 VCNUs_ab_tiny_224_ab1_perception3579][0m[33m(main.py 168)[0m: INFO Start training
+All checkpoints founded in pretrain/vcnu_ab/VCNUs_ab_tiny_224_ab1_perception3579/vcnu_tiny_ab1_4: []
+All checkpoints founded in pretrain/vcnu_ab/VCNUs_ab_tiny_224_ab1_perception3579/vcnu_tiny_ab1_4: []
+All checkpoints founded in pretrain/vcnu_ab/VCNUs_ab_tiny_224_ab1_perception3579/vcnu_tiny_ab1_4: []
+All checkpoints founded in pretrain/vcnu_ab/VCNUs_ab_tiny_224_ab1_perception3579/vcnu_tiny_ab1_4: []
+[32m[2024-06-03 10:40:46 VCNUs_ab_tiny_224_ab1_perception3579][0m[33m(main.py 240)[0m: INFO Train: [0/300][0/1251]	eta 6:01:16 lr 0.000000	 wd 0.0500	time 17.3273 (17.3273)	loss nan (nan)	grad_norm nan (nan)	loss_scale 32768.0000 (32768.0000)	mem 5540MB
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "main.py", line 372, in <module>
+  File "main.py", line 372, in <module>
+    main(config)
+      File "main.py", line 173, in main
+main(config)
+  File "main.py", line 173, in main
+    train_one_epoch(config, model, criterion, data_loader_train, optimizer, epoch, mixup_fn, lr_scheduler,    
+train_one_epoch(config, model, criterion, data_loader_train, optimizer, epoch, mixup_fn, lr_scheduler,  File "main.py", line 212, in train_one_epoch
+
+  File "main.py", line 212, in train_one_epoch
+    outputs = model(samples)
+      File "/home/vipuser/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+outputs = model(samples)
+  File "/home/vipuser/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+        return forward_call(*input, **kwargs)
+  File "/home/vipuser/miniconda3/lib/python3.8/site-packages/torch/nn/parallel/distributed.py", line 873, in forward
+return forward_call(*input, **kwargs)
+  File "/home/vipuser/miniconda3/lib/python3.8/site-packages/torch/nn/parallel/distributed.py", line 873, in forward
+    if torch.is_grad_enabled() and self.reducer._rebuild_buckets():
+RuntimeError: Expected to have finished reduction in the prior iteration before starting a new one. This error indicates that your module has parameters that were not used in producing loss. You can enable unused parameter detection by passing the keyword argument `find_unused_parameters=True` to `torch.nn.parallel.DistributedDataParallel`, and by 
+making sure all `forward` function outputs participate in calculating loss. 
+If you already have done the above, then the distributed data parallel module wasn't able to locate the output tensors in the return value of your module's `forward` function. Please include the loss function and the structure of the return value of `forward` of your module when reporting this issue (e.g. list, dict, iterable).
+Parameter indices which did not receive grad for rank 2: 302 303
+ In addition, you can set the environment variable TORCH_DISTRIBUTED_DEBUG to either INFO or DETAIL to print out information about which particular parameters did not receive gradient on this rank as part of this error
+    if torch.is_grad_enabled() and self.reducer._rebuild_buckets():
+RuntimeError: Expected to have finished reduction in the prior iteration before starting a new one. This error indicates that your module has parameters that were not used in producing loss. You can enable unused parameter detection by passing the keyword argument `find_unused_parameters=True` to `torch.nn.parallel.DistributedDataParallel`, and by 
+making sure all `forward` function outputs participate in calculating loss. 
+If you already have done the above, then the distributed data parallel module wasn't able to locate the output tensors in the return value of your module's `forward` function. Please include the loss function and the structure of the return value of `forward` of your module when reporting this issue (e.g. list, dict, iterable).
+Parameter indices which did not receive grad for rank 6: 302 303
+ In addition, you can set the environment variable TORCH_DISTRIBUTED_DEBUG to either INFO or DETAIL to print out information about which particular parameters did not receive gradient on this rank as part of this error
+Traceback (most recent call last):
+  File "main.py", line 372, in <module>
+    main(config)
+  File "main.py", line 173, in main
+    train_one_epoch(config, model, criterion, data_loader_train, optimizer, epoch, mixup_fn, lr_scheduler,
+  File "main.py", line 212, in train_one_epoch
+    outputs = model(samples)
+  File "/home/vipuser/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/vipuser/miniconda3/lib/python3.8/site-packages/torch/nn/parallel/distributed.py", line 873, in forward
+    if torch.is_grad_enabled() and self.reducer._rebuild_buckets():
+RuntimeError: Expected to have finished reduction in the prior iteration before starting a new one. This error indicates that your module has parameters that were not used in producing loss. You can enable unused parameter detection by passing the keyword argument `find_unused_parameters=True` to `torch.nn.parallel.DistributedDataParallel`, and by 
+making sure all `forward` function outputs participate in calculating loss. 
+If you already have done the above, then the distributed data parallel module wasn't able to locate the output tensors in the return value of your module's `forward` function. Please include the loss function and the structure of the return value of `forward` of your module when reporting this issue (e.g. list, dict, iterable).
+Parameter indices which did not receive grad for rank 0: 302 303
+ In addition, you can set the environment variable TORCH_DISTRIBUTED_DEBUG to either INFO or DETAIL to print out information about which particular parameters did not receive gradient on this rank as part of this error
+Traceback (most recent call last):
+  File "main.py", line 372, in <module>
+    main(config)
+  File "main.py", line 173, in main
+    train_one_epoch(config, model, criterion, data_loader_train, optimizer, epoch, mixup_fn, lr_scheduler,
+  File "main.py", line 212, in train_one_epoch
+    outputs = model(samples)
+  File "/home/vipuser/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/vipuser/miniconda3/lib/python3.8/site-packages/torch/nn/parallel/distributed.py", line 873, in forward
+    if torch.is_grad_enabled() and self.reducer._rebuild_buckets():
+RuntimeError: Expected to have finished reduction in the prior iteration before starting a new one. This error indicates that your module has parameters that were not used in producing loss. You can enable unused parameter detection by passing the keyword argument `find_unused_parameters=True` to `torch.nn.parallel.DistributedDataParallel`, and by 
+making sure all `forward` function outputs participate in calculating loss. 
+If you already have done the above, then the distributed data parallel module wasn't able to locate the output tensors in the return value of your module's `forward` function. Please include the loss function and the structure of the return value of `forward` of your module when reporting this issue (e.g. list, dict, iterable).
+Parameter indices which did not receive grad for rank 3: 302 303
+ In addition, you can set the environment variable TORCH_DISTRIBUTED_DEBUG to either INFO or DETAIL to print out information about which particular parameters did not receive gradient on this rank as part of this error
+Traceback (most recent call last):
+  File "main.py", line 372, in <module>
+    main(config)
+  File "main.py", line 173, in main
+    train_one_epoch(config, model, criterion, data_loader_train, optimizer, epoch, mixup_fn, lr_scheduler,
+  File "main.py", line 212, in train_one_epoch
+    outputs = model(samples)
+  File "/home/vipuser/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/vipuser/miniconda3/lib/python3.8/site-packages/torch/nn/parallel/distributed.py", line 873, in forward
+    if torch.is_grad_enabled() and self.reducer._rebuild_buckets():
+RuntimeError: Expected to have finished reduction in the prior iteration before starting a new one. This error indicates that your module has parameters that were not used in producing loss. You can enable unused parameter detection by passing the keyword argument `find_unused_parameters=True` to `torch.nn.parallel.DistributedDataParallel`, and by 
+making sure all `forward` function outputs participate in calculating loss. 
+If you already have done the above, then the distributed data parallel module wasn't able to locate the output tensors in the return value of your module's `forward` function. Please include the loss function and the structure of the return value of `forward` of your module when reporting this issue (e.g. list, dict, iterable).
+Parameter indices which did not receive grad for rank 7: 302 303
+ In addition, you can set the environment variable TORCH_DISTRIBUTED_DEBUG to either INFO or DETAIL to print out information about which particular parameters did not receive gradient on this rank as part of this error
+Traceback (most recent call last):
+  File "main.py", line 372, in <module>
+    main(config)
+  File "main.py", line 173, in main
+    train_one_epoch(config, model, criterion, data_loader_train, optimizer, epoch, mixup_fn, lr_scheduler,
+  File "main.py", line 212, in train_one_epoch
+    outputs = model(samples)
+  File "/home/vipuser/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/vipuser/miniconda3/lib/python3.8/site-packages/torch/nn/parallel/distributed.py", line 873, in forward
+    if torch.is_grad_enabled() and self.reducer._rebuild_buckets():
+RuntimeError: Expected to have finished reduction in the prior iteration before starting a new one. This error indicates that your module has parameters that were not used in producing loss. You can enable unused parameter detection by passing the keyword argument `find_unused_parameters=True` to `torch.nn.parallel.DistributedDataParallel`, and by 
+making sure all `forward` function outputs participate in calculating loss. 
+If you already have done the above, then the distributed data parallel module wasn't able to locate the output tensors in the return value of your module's `forward` function. Please include the loss function and the structure of the return value of `forward` of your module when reporting this issue (e.g. list, dict, iterable).
+Parameter indices which did not receive grad for rank 4: 302 303
+ In addition, you can set the environment variable TORCH_DISTRIBUTED_DEBUG to either INFO or DETAIL to print out information about which particular parameters did not receive gradient on this rank as part of this error
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 38954 closing signal SIGTERM
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 38955 closing signal SIGTERM
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 38956 closing signal SIGTERM
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 38957 closing signal SIGTERM
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 38958 closing signal SIGTERM
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 38959 closing signal SIGTERM
+WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 38961 closing signal SIGTERM
+Traceback (most recent call last):
+  File "/home/vipuser/miniconda3/lib/python3.8/multiprocessing/queues.py", line 245, in _feed
+    send_bytes(obj)
+  File "/home/vipuser/miniconda3/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/home/vipuser/miniconda3/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 1) local_rank: 6 (pid: 38960) of binary: /home/vipuser/miniconda3/bin/python
+Traceback (most recent call last):
+  File "/home/vipuser/miniconda3/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/vipuser/miniconda3/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/vipuser/miniconda3/lib/python3.8/site-packages/torch/distributed/launch.py", line 193, in <module>
+    main()
+  File "/home/vipuser/miniconda3/lib/python3.8/site-packages/torch/distributed/launch.py", line 189, in main
+    launch(args)
+  File "/home/vipuser/miniconda3/lib/python3.8/site-packages/torch/distributed/launch.py", line 174, in launch
+    run(args)
+  File "/home/vipuser/miniconda3/lib/python3.8/site-packages/torch/distributed/run.py", line 710, in run
+    elastic_launch(
+  File "/home/vipuser/miniconda3/lib/python3.8/site-packages/torch/distributed/launcher/api.py", line 131, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/vipuser/miniconda3/lib/python3.8/site-packages/torch/distributed/launcher/api.py", line 259, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-06-03_10:40:50
+  host      : ubuntu1804
+  rank      : 6 (local_rank: 6)
+  exitcode  : 1 (pid: 38960)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

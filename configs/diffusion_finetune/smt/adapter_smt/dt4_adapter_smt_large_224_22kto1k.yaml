@@ -1,0 +1,29 @@
+MODEL:
+  TYPE: adapter_smt_diffusion_finetune
+  NAME: adapter_smt_diffusion_finetune_large_224_22kto1k_dt4
+  DROP_PATH_RATE: 0.1
+  VCNU_SMT:
+    USE_LAYERSCALE: True
+    LAYERSCALE_VALUE: 1e-4
+
+    EMBED_DIMS: [ 96, 192, 384, 768 ]
+    CA_NUM_HEADS: [ 4, 4, 4, -1 ]
+    SA_NUM_HEADS: [ -1, -1, 8, 16 ]
+    MLP_RATIOS: [ 8, 6, 4, 2 ]
+    QKV_BIAS: True
+    DEPTHS: [ 4, 6, 28, 4 ]
+    CA_ATTENTIONS: [ 1, 1, 1, 0 ]
+    HEAD_CONV: 7
+    EXPAND_RATIO: 2
+TRAIN:
+  EPOCHS: 30
+  WARMUP_EPOCHS: 5
+  WEIGHT_DECAY: 0.05
+  BASE_LR: 1e-05
+  WARMUP_LR: 1e-08
+  MIN_LR: 1e-07
+  EFFICIENT_FINETUNE: True  # efficient finetune
+  FINETUNE_MODE: dt4
+AUG:
+  MIXUP: 0.2
+SAVE_FREQ: 10
