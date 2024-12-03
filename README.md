@@ -72,25 +72,55 @@ load data:
 To evaluate a pre-trained `Swin Transformer` on ImageNet val, run:
 
 ```bash
-python -m torch.distributed.launch --nproc_per_node <num-of-gpus-to-use> --master_port 12345 main.py --eval \
---cfg <config-file> --resume <checkpoint> --data-path <imagenet-path> 
+python -m torch.distributed.launch --nproc_per_node <num-of-gpus-to-use>  main_diffusion_tuning.py --eval \
+--cfg <config-file> --pretrained <checkpoint> --data-path <imagenet-path> 
 ```
 
-For example, to evaluate the `Swin-B` with a single GPU:
+**Notes**:
+
+- Please note that when testing the results of Diffusion Tuning (DT1~DT4), select the configuration file (--cfg) of the original model (the yaml file that does not contain 'dt').
+
+For example, to evaluate the `Swin-B-DT1` with a single GPU:
 
 ```bash
-python -m torch.distributed.launch --nproc_per_node 1 --master_port 12345 main.py --eval \
---cfg configs/swin/swin_base_patch4_window7_224.yaml --resume swin_base_patch4_window7_224.pth --data-path <imagenet-path>
+python -m torch.distributed.launch --nproc_per_node 1 main_diffusion_tuning.py --eval \
+--cfg configs/diffusion_finetune/swin/swin/swin_base_patch4_window7_224_22kto1k_finetune.yaml --pretrained dt1_swin_base_patch4_window7_224_22k.pth --data-path <imagenet-path>
 ```
 
-### Fine-tuning from a ImageNet-22K(21K) pre-trained model
+### Full Fine-tuning (FFT) from a ImageNet-22K(21K) pre-trained model
 
-For example, to fine-tune a `Swin-B` model pre-trained on ImageNet-22K(21K):
+For example, using DT-1 as the training method to fine-tune a Swin-B model pre-trained on ImageNet-22K (21K):
 
 ```bashs
-python -m torch.distributed.launch --nproc_per_node 8 --master_port 12345  main.py \
---cfg configs/swin/swin_base_patch4_window7_224_22kto1k_finetune.yaml --pretrained swin_base_patch4_window7_224_22k.pth \
---data-path <imagenet-path> --batch-size 64 --accumulation-steps 2 [--use-checkpoint]
+python -m torch.distributed.launch --nproc_per_node 8 main_diffusion_tuning.py \
+--cfg configs/diffusion_finetune/swin/swin/dt1_swin_base_patch4_window7_224_22kto1k.yaml --pretrained swin_base_patch4_window7_224_22k.pth \
+--data-path <imagenet-path> --batch-size 64 --accumulation-steps 2 --use-checkpoint --output <ouput-path> --tag swin_base_dt1
+```
+
+For example, using OST(one step tuning) as the training method to fine-tune a Swin-B model pre-trained on ImageNet-22K (21K):
+
+```bashs
+python -m torch.distributed.launch --nproc_per_node 8 main_diffusion_tuning.py \
+--cfg configs/diffusion_finetune/swin/swin/swin_base_patch4_window7_224_22kto1k_finetune.yaml --pretrained swin_base_patch4_window7_224_22k.pth \
+--data-path <imagenet-path> --batch-size 64 --accumulation-steps 2 --use-checkpoint --output <ouput-path> --tag swin_base_ost
+```
+
+### Parameter-Efficient Fine-tuning (PEFT) from a ImageNet-22K(21K) pre-trained model
+
+For example, using DT-1 as the training method to fine-tune a Swin-B-Adapter model pre-trained on ImageNet-22K (21K):
+
+```bashs
+python -m torch.distributed.launch --nproc_per_node 8 main_diffusion_tuning.py \
+--cfg configs/diffusion_finetune/swin/adapter-swin/dt1_adapter_swin_base_patch4_window7_224_22kto1k.yaml --pretrained swin_base_patch4_window7_224_22k.pth \
+--data-path <imagenet-path> --batch-size 64 --accumulation-steps 2 --use-checkpoint --output <ouput-path> --tag swin_base_adapter_dt1
+```
+
+For example, using OST(one step tuning) as the training method to fine-tune a Swin-B model pre-trained on ImageNet-22K (21K):
+
+```bashs
+python -m torch.distributed.launch --nproc_per_node 8 main_diffusion_tuning.py \
+--cfg configs/diffusion_finetune/swin/adapter-swin/adapter_swin_base_patch4_window7_224_22kto1k.yaml --pretrained swin_base_patch4_window7_224_22k.pth \
+--data-path <imagenet-path> --batch-size 64 --accumulation-steps 2 --use-checkpoint --output <ouput-path> --tag swin_base_adapter_ost
 ```
 
 ## Citation
