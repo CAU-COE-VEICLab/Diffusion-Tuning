@@ -122,5 +122,16 @@ python -m torch.distributed.launch --nproc_per_node 8 main_diffusion_tuning.py \
 --cfg configs/diffusion_finetune/swin/adapter-swin/adapter_swin_base_patch4_window7_224_22kto1k.yaml --pretrained swin_base_patch4_window7_224_22k.pth \
 --data-path <imagenet-path> --batch-size 64 --accumulation-steps 2 --use-checkpoint --output <ouput-path> --tag swin_base_adapter_ost
 ```
+## Practical Application
+
+### AgriMaTech-LLaMA
+
+To validate the effectiveness of diffusion tuning in specific tasks, we constructed a vertical domain supervised fine-tuning dataset for agricultural mechanization specialization - AgriMachine28K.  We then used LLaMA3.1-8B-Instruct as a base model and DT-3 as a training method on the AgriMachine28K and fine-tuning the base model to obtain AgriMaTech-LLaMA, a large language model in the field of assisted learning and teaching.  
+
+you can click this [link](https://drive.google.com/drive/folders/1UYfqghaAWC0uqddyE6odlaGjKrjlsvQR?usp=drive_link) to download AgriMaTech-LLaMA.
+
+**Notes**:
+
+- The weights provided in the link are exclusively for LORA (Low-Rank Adaptation). You can load these weights using peft.PeftModel.from_pretrained provided by Hugging Face.
 
 ## Citation
