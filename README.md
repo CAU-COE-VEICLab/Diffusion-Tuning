@@ -1,19 +1,18 @@
 # Diffusion-Tuning
-This is the code base for **`"Step-by-step Fine-Tuning Strategy for Deep Neural Networks"`**, and the article is submitted to **`Knowledge-Based Systems`**.
+This is the code base for **`"Diffusion Tuning: A Step-by-Step Fine-Tuning Strategy for Deep Neural Networks Inspired by Physical Diffusion"`**, and the article is submitted to **`Knowledge-Based Systems`**.
 
 ## Abstract
-As data size and computational power increase, the pre-training + fine-tuning paradigm emerges in deep learning, where fine-tuning determines the model's performance on a new target task. Currently, mainstream methods, such as full fine-tuning (FFT) or parameter-efficient fine-tuning (PEFT), uniformly optimize all training parameters within a specified epoch, collectively referred to as one-step tuning (OST). However, OST encounters the challenge of model performance failing to improve with increased training time, tending to saturate or even decline at some point. Consequently, we introduce the concept of step-by-step tuning (SST), which refers to the training method of fine-tuning a model by progressively optimizing the parameters of different parts of the model in a specific order or strategy, allowing the model to be better adapted to new tasks. Inspired by the physical diffusion process, we propose a novel SST method, diffusion tuning, which divides the neural network parameter space into multiple subspaces and progressively optimizes each using a staged training strategy. Experiments conducted on three visual models and two language models demonstrate that diffusion tuning effectively reduces the difficulty of finding the global optimum during training and enhances the baseline model's performance across various tasks with good generalization. Finally, we develop AgriMaTech-LLaMA, a large-scale language model for agricultural mechanization education based on diffusion tuning, and verified its practical value.
+As data size and computational power increase, the ‘pre-training + fine-tuning’ paradigm emerges in deep learning, where fine-tuning determines the model's performance on a new target task. Currently, mainstream methods, such as full fine-tuning (FFT) or parameter-efficient fine-tuning (PEFT), uniformly optimize all training parameters within a specified epoch, collectively referred to as one-step tuning (OST). However, our experiments reveal that OST cannot improve performance by extending the training time, for either vision models or language models, indicating a bottleneck in knowledge transfer. Consequently, we introduce the concept of step-by-step tuning (SST), where the parameters of different parts of the model are gradually optimized in a specific order or strategy. Inspired by the physical diffusion process, we propose a novel SST strategy, diffusion tuning (DT), which divides the parameter space into multiple subspaces and progressively optimizes each. DT includes two approaches for optimizing parameters in subspaces and two methods for partitioning the parameter space. Compared with OST, we prove that DT has a tighter generalization bound in optimization, which provides theoretical proof of convergence. Over 170 experiments conducted on three visual models and two language models demonstrate that DT effectively alleviates the bottleneck of knowledge transfer and robustly improves the performance of baseline models across various tasks. Even with only half the training epoch of OST, DT can still achieve competitive results. DT is a model-independent and data-independent fine-tuning strategy, demonstrating the extrapolation from physical laws to parameter optimization and potentially inspiring broader exploration of SST by researchers.
 
 ![diffusion](figures/fig1.png)
 ![hypothetical](figures/fig2.png)
 
 ## Results
 **To learn more detail please read our paper**.
-![cvresult](figures/fig5.png)
-![nlpresult1](figures/fig6.png)
-![nlpresult2](figures/fig7.png)
-![cvtrainresult](figures/fig8.png)
-![cvresultvis](figures/fig9.png)
+![cvresult](figures/fig3.png)
+![nlpresult1](figures/fig4.png)
+![nlpresult2](figures/fig5.png)
+
 
 ## Train and Test
 We have provided detailed instructions for model training and testing and experimental details. 
