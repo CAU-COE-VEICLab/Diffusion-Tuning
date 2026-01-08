@@ -1,15 +1,29 @@
-# Diffusion-Tuning
-This is the code base for **`"Diffusion Tuning: A Step-by-Step Fine-Tuning Strategy for Deep Neural Networks Inspired by Physical Diffusion"`**, and the article is submitted to **`Knowledge-Based Systems`**.
+<div align="center">
 
-## Abstract
+<h1>Diffusion Tuning: A Step-by-Step Fine-Tuning Strategy for Deep Neural Networks Inspired by Physical Diffusion</h1> 
+
+<div>
+    <a>Guorun Li</a>;
+    <a>Lei Liu</a>;
+    <a>Yucong Wang</a>;
+    <a>Xiaoyu Li</a>;
+    <a>Yuefeng Du*</a>;
+</div>
+
+<h3><strong>Submitted to Knowledge-Based Systems in 2026</strong></h3>
+
+</div>
+
+# Abstract
 As data size and computational power increase, the ‘pre-training + fine-tuning’ paradigm emerges in deep learning, where fine-tuning determines the model's performance on a new target task. Currently, mainstream methods, such as full fine-tuning (FFT) or parameter-efficient fine-tuning (PEFT), uniformly optimize all training parameters within a specified epoch, collectively referred to as one-step tuning (OST). However, our experiments reveal that OST cannot improve performance by extending the training time, for either vision models or language models, indicating a bottleneck in knowledge transfer. Consequently, we introduce the concept of step-by-step tuning (SST), where the parameters of different parts of the model are gradually optimized in a specific order or strategy. Inspired by the physical diffusion process, we propose a novel SST strategy, diffusion tuning (DT), which divides the parameter space into multiple subspaces and progressively optimizes each. DT includes two approaches for optimizing parameters in subspaces and two methods for partitioning the parameter space. Compared with OST, we prove that DT has a tighter generalization bound in optimization, which provides theoretical proof of convergence. Over 170 experiments conducted on three visual models and two language models demonstrate that DT effectively alleviates the bottleneck of knowledge transfer and robustly improves the performance of baseline models across various tasks. Even with only half the training epoch of OST, DT can still achieve competitive results. DT is a model-independent and data-independent fine-tuning strategy, demonstrating the extrapolation from physical laws to parameter optimization and potentially inspiring broader exploration of SST by researchers.
 
 ![diffusion](figures/fig1.png)
 ![hypothetical](figures/fig2.png)
+![Dresult](figures/fig3.png)
+![Sresult](figures/fig.png)
 
-## Results
+# Results
 **To learn more detail please read our paper**.
-![cvresult](figures/fig3.png)
 ![nlpresult1](figures/fig4.png)
 ![nlpresult2](figures/fig5.png)
 
